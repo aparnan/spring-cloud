@@ -1,0 +1,15 @@
+server:
+  port: 0
+  
+info:
+  component: Product Service
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://aparnan-win7:8761/eureka/
+      
+
+
+
+ 

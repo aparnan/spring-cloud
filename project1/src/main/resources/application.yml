@@ -1,0 +1,21 @@
+server:
+  port: 0
+  
+info:
+  component: Project1 Service
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://aparnan-win7:8761/eureka/
+      
+
+# Replace with your connection string
+spring:
+datasource:
+url: mongodb://localhost:27017
+username: 
+password: 
+
+
+ 
