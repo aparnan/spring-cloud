@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: consumer-service
+  instance:
+    metadataMap:
+            instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
